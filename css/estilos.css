@@ -1,0 +1,336 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	background-color: #fafafa;
+}
+.container {
+	/* 	border: 1px solid red;*/
+	max-width: 1000px;
+	width: 100%;
+	flex: 1;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+.Eventcontainer {
+	/* 	border: 1px solid red;*/
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	display: inherit;
+	flex-wrap: inherit;
+}
+
+.logo {
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+}
+.header {
+	background-color: #1d252c;
+	color: #ffffff;
+	display: flex;
+	height: 70px;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+figure {
+	margin: 0;
+}
+.header ol {
+	/* .header ol hereda de .header */
+	display: flex;
+	margin-right: 30px;
+	list-style: none;
+}
+/* .header ol li {
+	/* .header ol li hereda de .header ol
+	height: inherit; 
+}	*/
+.header ol li a {
+	/* ,header a hereda de .header ol li */
+	color: white;
+	text-decoration: none;
+	/* 	height: inherit;
+	display: flex;
+	align-items: center;*/
+	padding: 0 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+h1 {
+	font-size: 40px;
+	line-height: 1.5em;
+	letter-spacing: -.2px;
+	color: white;
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h1 strong {
+	color: #00cba5;
+}
+h2 {
+	color: #00cba5;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 40px;
+}
+.hero {
+	height: 300px;
+	/*background-image: url('https://miro.medium.com/max/3200/0*QUqE4WGF8_cC9bIl.jpg');
+	background-size: 500px 300px;
+	background-repeat: no-repeat;
+	background-position-x: right;*/
+	background-color: #1d252c;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.hero-img {
+	object-fit: cover;
+}
+.portfolio {
+	background: #fafafa;
+	padding: 10px;
+}
+.portfolio h2 {
+	margin-bottom: 30px;
+}
+.project {
+	/* 	border-top: 5px solid #000000;
+	border-right: 5px solid #000000;
+	border-left: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	border-color: #00cba5;
+	border-width: 2.5px;
+	border-style: solid; */
+	border: 2px solid #00cba5;
+	border-radius: 15px;
+	/* border-top-left-radius: 100px;*/
+	margin-bottom: 10px;
+	/* margin: 10px;*/
+	padding: 20px;
+	background: white;
+	display: flex;
+	text-align: justify;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	box-shadow: 2px 2px 10px #dadada;
+}
+.project-title {
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.project-details {
+	width: 50%;
+}
+.project-description {
+	font-size: 20px;
+}
+.project strong {
+	font-family: 'Fjalla One', sans-serif;
+}
+.project-course,
+.project-date,
+.project-link {
+	margin: 10px 0px;
+	letter-spacing: 0.1em;
+}
+/* .project-date {
+	margin: 10px 0px;
+}
+ */
+.project-imageContainer {
+	width: 50%;
+}
+.project-imageContainer img {
+	max-width: 100%;
+}
+
+.event-list {
+	display: flex;
+	background: #fafafa;
+	flex-wrap: wrap;
+}
+.event {
+	margin: 1%;
+	width: 48%;
+	border-radius: 10px;
+	overflow: hidden;
+	flex-shrink: 0;
+	background: #f4fbff;
+	box-shadow: 2px 2px 10px #dadada;
+}
+.event-name {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px 20px 20px;
+	background: #fafafa;
+}
+.event img {
+	width: 480px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.event-detail {
+	margin: 20px 40px;
+	margin-top: -40px;
+	background-color: white;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+}
+.event-description {
+	text-align: left;
+}
+.event-link {
+	color: #00cba5;
+	border: 2px solid;
+	padding: 7px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.contact {
+	color: white;
+	background-color: #00cba5;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.form-title {
+	margin: 0px 0px 15px 0px;
+	font-size: 30px;
+}
+
+.social {
+	margin-right: 20px;
+}
+.social a {
+	text-decoration: none;
+}
+.social span {
+	color: white;
+	width: 50px;
+}
+/* .social a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+ */
+/* .social-link {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	background-size: 50px;
+}
+ */
+/* .social-link.twitter {
+	background-image: url('../images/twitter.svg');
+}
+.social-link.facebook {
+	background-image: url('../images/facebook.svg');
+}
+.social-link.instagram {
+	background-image: url('../images/instagram.svg');
+}
+.social-link.platzi {
+	background-image: url('../images/platzi2.svg');
+}
+ */
+.form-email {
+	margin-left: 35px;
+}
+.form-email input {
+	margin: 0px;
+	border-color: gray;
+	padding: 10px 20px 10px 25px;
+	background-image: url('../images/envelope.svg');
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 20px;
+	text-align: center;
+	border-radius: 8px;
+	border-style: solid;
+}
+.form-email h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+}
+.button {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	display: block;
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 5px;
+	width: 100px;
+	margin-top: 15px;
+}
+footer {
+	display: flex;
+	background-color: #1d252c;
+	min-height: 60px;
+	color: white;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+footer p {
+	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+}
+footer img {
+	vertical-align: middle;
+}
+.icon-menu {
+	display: none;
+}
+/* .flexbox {
+	display: flex;
+	flex-shrink: 0;
+}
+ */
+
+/* .box {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid red;
+
+	flex-shrink: 0;
+}*/
+/* selector de etiqueta: header, div, firure, section, body */
+/* selector descendente: body header div nav ol li a {} */
+/* selector de clase: se configura la clase en el html con class
+y se identifca en CSS con un punto (.) p/e: .link */
+/* selector de id: sirve para objetos especificos debido a que 
+el id es único y no se puede repetir: se apunta con el # p/e #portafolio */

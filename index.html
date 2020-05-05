@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sabino Fernandez</title>
+	<link rel="icon" type="image/png" href="imagen/sficon4.png" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/media_queries.css" />
+	<link rel="stylesheet" href="/css/font/flaticon.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<meta name="viewport" content="width=device-width" inital-scale=1>
+</head>
+
+<body>
+	<i class="icon-menu burger-button" id="burger-button"> </i>
+	<header class="header">
+		<div class="container">
+			<figure class="logo">
+				<img src="imagen/logo6.jpg" height="60px" alt="Logo de http://sabinofernandez.com" width="250" />
+			</figure>
+			<nav class="menu">
+				<ol>
+					<li>
+						<!-- con el href creamos vinculos a 
+						otras zonas de la pagina o a lugares externos
+						asi como también podemos crear vinculos que 
+						actuen como saltos hacia secciones dentro de la 
+						misma pagina con el #  -->
+						<a class="link" href="#portafolio">Portafolio</a>
+					</li>
+					<li>
+						<a class="link" href="#experiencia">Experiencia</a>
+					</li>
+					<li>
+						<a class="link" href="#contacto">Trabajemos juntos</a>
+					</li>
+				</ol>
+			</nav>
+		</div>
+	</header>
+
+	<section class="hero">
+		<div class="container">
+			<h1>Hola! Soy <strong>Sabino Fernández</strong><br>esta es <strong>mi primera página! </strong><br>Todavía
+				<strong>estoy aprendiendo.</strong></h1>
+			<img class="hero-img" src="https://miro.medium.com/max/3200/0*QUqE4WGF8_cC9bIl.jpg" width="500" height="300"
+				alt="imagen principal del sitio">
+		</div>
+	</section>
+	<section id="portafolio" class="portfolio">
+		<div class="container">
+			<h2>Portafolio (Proyectos destacados)</h2>
+			<article class="project">
+				<div class="project-details">
+					<h3 class="project-title">Platzi Video</h3>
+					<h6 class="project-course">React Native / React</h6>
+					<p class="project-date"><small><strong>Fecha:</strong> 15/04/2020</small></p>
+					<p class="project-link"><small><strong>Puedes verlo en: </strong> <span></span> www.platzi.com/native</small>
+					</p>
+					<p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor
+						app para enseñar el funcionamiento de React y React Native. Desde crear una vita-detalle, hasta
+						patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de
+						aplicaciones multiplataforma.</p>
+				</div>
+				<figure class="project-imageContainer">
+					<img class="project-image" src="images/platzi-video-react-native.png"
+						alt="proyecto del curso der react native" width="500">
+				</figure>
+			</article>
+			<article class="project">
+				<div class="project-details">
+					<h3 class="project-title">Platzi Video</h3>
+					<h6 class="project-course">React Native / React</h6>
+					<p class="project-date"><small><strong>Fecha:</strong> 15/04/2020</small></p>
+					<p class="project-link"><small><strong>Puedes verlo en: </strong>www.platzi.com/native </small></p>
+					<p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor
+						app para enseñar el funcionamiento de React y React Native. Desde crear una vita-detalle, hasta
+						patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de
+						aplicaciones multiplataforma.</p>
+				</div>
+				<figure class="project-imageContainer">
+					<img class="project-image" src="images/platzi-video-react-native.png"
+						alt="proyecto del curso der react native" width="500">
+				</figure>
+			</article>
+		</div>
+	</section>
+
+	<div class="container">
+		<h2 class="event-name">Más sobre mi experiencia</h2>
+	</div>
+	<section id="experiencia" class="event-list">
+		<div class="Eventcontainer">
+			<article class="event">
+				<figure class="event-imageContainer">
+					<div class="flexible-video">
+						<iframe class="youtube-video" width="480" height="200"
+							src="https://www.youtube-nocookie.com/embed/5CPeHQHAQyo" frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<!-- 					<video src="/video/video.mp4" width="500" controls></video> -->
+					<!-- 					<img class="event-Image" src="images/platzi-conf.jpg" width="500" /> -->
+				</figure>
+				<div class="event-detail">
+					<h3 class="event-title">PlatziConf Mexico 2018</h3>
+					<p class="event-description">El evento más grande sobre gente que quiere aprender más de Internet.</p>
+					<a class="event-link" href="https://www.youtube.com/watch?v=JC9FA8lZRy8" target="_blank">Ver plática</a>
+				</div>
+			</article>
+			<article class="event">
+				<figure class="event-imageContainer">
+					<img class="event-Image" src="images/platzi-conf.jpg" width="500" />
+				</figure>
+				<div class="event-detail">
+					<h3 class="event-title">PlatziConf Mexico 2018</h3>
+					<p class="event-description">El evento más grande sobre gente que quiere aprender más de Internet.</p>
+					<a class="event-link" href="https://www.youtube.com/watch?v=JC9FA8lZRy8" target="_blank">Ver plática</a>
+				</div>
+			</article>
+			<article class="event">
+				<figure class="event-imageContainer">
+					<img class="event-Image" src="images/platzi-conf.jpg" width="500" />
+				</figure>
+				<div class="event-detail">
+					<h3 class="event-title">PlatziConf Mexico 2018</h3>
+					<p class="event-description">El evento más grande sobre gente que quiere aprender más de Internet.</p>
+					<a class="event-link" href="https://www.youtube.com/watch?v=JC9FA8lZRy8" target="_blank">Ver plática</a>
+				</div>
+			</article>
+			<article class="event">
+				<figure class="event-imageContainer">
+					<img class="event-Image" src="images/platzi-conf.jpg" width="500" />
+				</figure>
+				<div class="event-detail">
+					<h3 class="event-title">PlatziConf Mexico 2018</h3>
+					<p class="event-description">El evento más grande sobre gente que quiere aprender más de Internet.</p>
+					<a class="event-link" href="https://www.youtube.com/watch?v=JC9FA8lZRy8" target="_blank">Ver plática</a>
+				</div>
+			</article>
+		</div>
+	</section>
+	<section id="contacto" class="contact">
+		<div class="container">
+			<form action="/suscripcion/" class="form-email">
+				<h3 class="form-title">¿Creamos algo juntos?</h3>
+				<input type="text" placeholder="Dejame tu email" id="email" class="form-email">
+				<button class="button">Enviar</button>
+			</form>
+			<div class="social">
+				<a href="https://twitter.com/sxbino" target="_blank">
+					<span class="flaticon-013-twitter-1"></span>
+				</a>
+				<a href="https://facebook.com/sabinofernandez0" target="_blank">
+					<span class="flaticon-001-facebook"></span>
+				</a>
+				<a href="https://instagram.com/sabinofernandez0" target="_blank">
+					<span class="flaticon-011-instagram"></span>
+				</a>
+				<a href="https://platzi.com/@sabinofernandez0" target="_blank">
+					<span class="flaticon-010-linkedin"></span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<p>Curso de Desarrollo Web Online <img src="images/platzi.png" width="80px" alt="logo de platzi"></p>
+			<p>Designed with ❤️</p>
+		</div>
+	</footer>
+	<script>
+		console.log('Hola');
+		console.log(document.querySelector('.menu'));
+		const ipad = window.matchMedia('screen and (max-width: 767px');
+		const menu = document.querySelector('.menu');
+		console.log(menu)
+		const burgerButton = document.querySelector("#burger-button")
+		console.log(burgerButton)
+
+		ipad.addListener(validation)
+
+		function validation(event) {
+			if (event.matches) {
+				burgerButton.addEventListener('click', hideShow)
+			} else {
+				burgerButton.removeEventListener('click', hideShow)
+			}
+		}
+		validation(ipad)
+		function hideShow() {
+			if (menu.classList.contains('is-active')) {
+				menu.classList.remove("is-active");
+			}
+			else {
+				menu.classList.add("is-active");
+			}
+		}
+	</script>
+</body>
+
+</html>
